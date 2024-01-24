@@ -1,0 +1,68 @@
+.footer {
+  padding: 1rem;
+  background-color: rgb(83, 83, 227);
+  text-align: center;
+  color: black;
+}
+
+.section_padding {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 2000px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.736);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer_portail {
+  flex: 1;
+  text-align: left; /* Alignez le texte à gauche dans cette section */
+}
+
+.footer_links {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.section_padding h2 {
+  color: #007bff;
+}
+
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.footer_links a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.footer_links a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 200px; /* Ajustez la largeur maximale du conteneur selon vos besoins */
+  margin: 0 auto; /* Centrez le conteneur horizontalement */
+}
+
+.container .social_icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0; /* Ajoutez une marge au-dessus et en dessous des icônes */
+}
+
+.container .social_icons a {
+  width: 40px; /* Ajustez la largeur des images */
+  height: 40px; /* Ajustez la hauteur des images */
+}
+
+.container .social_icons img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajustez le comportement d'ajustement des images */
+  border-radius: 50%; /* Pour rendre les images rondes, facultatif */
+}
